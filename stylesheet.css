@@ -1,0 +1,283 @@
+@font-face {
+    font-family: "oxygenlight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/oxygen-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen-light-webfont.woff") format("woff"), url("../fonts/oxygen-light-webfont.ttf") format("truetype"), url("../fonts/oxygen-light-webfont.svg#oxygenlight") format("svg");
+}
+@font-face {
+    font-family: "oxygenregular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/oxygen-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen-regular-webfont.woff") format("woff"), url("../fonts/oxygen-regular-webfont.ttf") format("truetype"), url("../fonts/oxygen-regular-webfont.svg#oxygenregular") format("svg");
+}
+@font-face {
+    font-family: "oxygenbold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/oxygen-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen-bold-webfont.woff") format("woff"), url("../fonts/oxygen-bold-webfont.ttf") format("truetype"), url("../fonts/oxygen-bold-webfont.svg#oxygenbold") format("svg");
+}
+@font-face {
+    font-family: "icomoon-unigarant";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/icomoon-unigarant.eot?#iefix-e9zdw0") format("embedded-opentype"), url("../fonts/icomoon-unigarant.woff?-e9zdw0") format("woff"), url("../fonts/icomoon-unigarant.ttf?-e9zdw0") format("truetype"), url("../fonts/icomoon-unigarant.svg?-e9zdw0#icomoon-unigarant") format("svg");
+}
+	
+*
+{
+	margin:0;
+	padding:0;
+}
+
+html, body, div, span, ol, ul, li{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+.popup_blok_menu > a {font-size:12px;}
+
+
+
+
+body
+{
+	font-weight:normal;
+	letter-spacing: 0px;
+	color: #404040;
+	background-color:#009fe3;
+	font-size:16px;
+	width:100%;
+	min-height:100%;
+	font-family: oxygenbold;
+}
+h1
+{
+	font-family: oxygenbold;
+	color:#ffffff;
+	margin-top:60px;
+	margin-bottom:40px;
+	font-size:40px;
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+
+.container
+{
+	font-family: oxygenregular;
+	position:relative;
+	float:left;
+	width:1000px;
+    left: 50%;
+    margin-left: -500px;
+	margin-bottom:120px;
+	line-height:22px;
+	z-index:888;
+	background-image:url(../images/organogram_lijnen.png);
+	background-repeat:no-repeat;
+	background-position:165px 200px;
+	height:950px;
+}
+.footer
+{
+	position:fixed;
+	z-index:999;
+	width:100%;
+	background-color:#ffffff;
+	height:120px;
+	bottom:0;	
+}
+.blokken
+{
+	position:absolute;
+	width:1200px;
+	z-index:999;
+}
+.blok_blauw
+{
+	
+	float:left;
+	width:407px;
+	padding:5px;
+	border-radius:7px;
+	background-color:#84d0f0;
+	text-align:center;
+	color:#000000;
+	margin-bottom: 30px;
+}
+.blok_wit
+{
+	
+	float:left;
+	width:300px;
+	padding:5px;
+	border-radius:7px;
+	background-color:#ffffff;
+	text-align:center;
+	color:#009fe3;
+	margin-bottom: 21px;
+	margin-left:15px;
+}
+.blok_lichtblauw
+{	
+	float:left;
+	width:267px;
+	padding:5px;
+	border-radius:7px;
+	background-color:#c9e9f8;
+	text-align:center;
+	color:#000000;
+	margin-bottom: 17px;
+	margin-left:15px;
+}
+.blok_top
+{
+	background-color: #ffffff;
+    border-radius: 7px;
+    color: #009fe3;
+    float: left;
+    margin-left: 15px;
+    margin-top: 170px;
+    padding: 5px;
+    text-align: center;
+    width: 950px;
+}
+.blokken_midden
+{
+	float:left;
+	width:1000px;	
+}
+.blok_links
+{
+	float: left;
+    margin-left: 15px;
+    margin-top: 33px;
+    width: 422px;
+}
+.blok_rechts
+{
+	float: left;
+    margin-left: 121px;
+    margin-top: 33px;
+    width: 422px;
+}
+.blok_onder
+{
+	float:left;
+	width:1000px;	
+	margin-top: 50px;
+}
+.blok_onder_1
+{
+	float:left;
+	width:320px;	
+	
+}
+.blok_onder_2
+{
+	
+	float:left;
+	width:320px;	
+}
+.blok_onder_3
+{
+	
+	float:left;
+	width:320px;	
+}
+
+.popup
+{
+	float:left;
+	background-color: #ffffff;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 630px;
+    margin-left: 30px;
+    margin-top: 135px;
+    position: absolute;
+    width: 930px;
+    z-index: 999;
+	display:none;
+	border-top:32px solid #009ee0;
+	border-bottom:32px solid #fcc400;
+}
+.popup_blok_menu
+{
+	float:left;
+	margin:20px;
+	margin-right:10px;
+	width:300px;
+	height: 596px;
+}
+.popup_blok_menu a
+{
+	font-family: oxygenregular;
+	color:#009ee0;
+	padding-bottom:2px;
+	text-decoration:none;
+}
+.popup_blok_menu a:hover
+{
+	color:#000000;
+}
+.popup_blok_links
+{
+	float:left;
+	margin:20px;
+	margin-right:10px;
+	margin-top:70px;
+	width:270px;
+	font-size:12px;
+}
+.popup_blok_rechts
+{
+	
+	float:left;
+	margin:20px;
+	margin-right:10px;
+	margin-top:70px;
+	width:270px;
+	font-size:12px;
+}
+.popup h2
+{
+	font-family: oxygenbold;
+	color:#009ee0;
+	margin-bottom:30px;
+	font-size:20px;
+	position:relative;
+	float:left;
+	width:100%;	
+}
+.popup_footer
+{
+	font-family: oxygenbold;
+	color:#004186;
+	width:915px;
+	text-align:right;
+	float:left;
+}
+.popup_footer a
+{
+	color:#004186;
+	text-decoration:none;
+}
+.popup_footer a:hover
+{
+	color:#000000;
+}
+.footer_anwb
+{
+	float:left;
+	margin-left:100px;
+	margin-top:35px;
+}
+.footer_unigarant
+{
+	float:right;
+	margin-right:100px;
+	margin-top:35px;
+}
